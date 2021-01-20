@@ -15,9 +15,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <title>${title}</title>
 <%-- css --%>
-<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="resources/style/common.css">
 </head>
 <body class="body">
 	<div class="wrap">
@@ -25,7 +26,7 @@
 				<div class="head-logo">
 					<!-- 로고 -->
 					<a href="">
-						<img alt="FootPrint" src="footprint.png" id="logo" style="width:80px; float:left" />
+						<img alt="FootPrint" src="resources/images/footprint.png" id="logo" style="width:80px; float:left" />
 					</a>
 				</div>
                <div class="right_header_wrap">
